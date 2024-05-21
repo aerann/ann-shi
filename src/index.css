@@ -4,9 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body{
   @apply font-default; 
 }
 
+@layer base {
+  h5 {
+    @apply text-3xl font-extrabold pb-2
+  }
+}
 
   
