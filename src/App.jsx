@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Navbar, NameCard } from './components'
+import profilePic from './assets/profile.jpg'
+//import NameCard from './components/NameCard'
 import './App.css'
 
 function App() {
@@ -8,9 +9,11 @@ function App() {
 
   return (
     <>
-      <div>
-        <p>hi</p>
-      </div>
+      <body className='bg-gradient-to-b from-blue from-0% to-yellow to-90% min-h-screen min-w-0 p-10'>
+        <div className='pt-96'> 
+          <NameCard />
+        </div>
+      </body>
     </>
   )
 }
