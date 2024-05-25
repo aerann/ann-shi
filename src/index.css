@@ -15,4 +15,8 @@ body{
   }
 }
 
-  
+@layer components {
+  .contact-icon {
+    @apply xs:text-5xl xl:text-6xl
+  } 
+}

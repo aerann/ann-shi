@@ -15,8 +15,8 @@ function NameCard() {
           
           <p className="font-body xs:text-lg 2xs:text-2xl sm:text-2xl md:text-4xl xl:text-5xl pb-2 sm:pr-20">nice to meet you, i'm</p>
 
-          <div className='bg-white-blue bg-opacity-60 box-border h-full w-full shadow-xl grid grid-cols-2 grid-rows-[35%,65%] pr-3 xl:pr-12'>
-            <p className="mt-[-40px] xs:text-4xl 2xs:text-5xl sm:text-5xl md:text-8xl xl:text-9xl font-extrabold col-start-2 col-span-1 row-span-1 self-center">
+          <div className='bg-white-blue bg-opacity-60 box-border h-full w-full shadow-xl grid grid-cols-2 grid-rows-[35%,65%] pr-3 xl:pr-16'>
+            <p className="mt-[-20px] xs:text-4xl 2xs:text-5xl sm:text-5xl md:text-8xl xl:text-9xl font-extrabold col-start-2 col-span-1 row-span-1 self-center">
               ann shi
             </p>
             <p className="xs:text-lg 2xs:text-2xl sm:text-2xl md:text-4xl xl:text-5xl col-start-2 row-start-2 col-span-1 row-span-2">
