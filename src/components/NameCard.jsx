@@ -24,7 +24,7 @@ function NameCard() {
             <p className="xs:text-sm 2xs:text-lg sm:text-2xl md:text-4xl col-start-2 row-start-2 col-span-1 row-span-2">
               third year software<br/>
               engineering student <br/> 
-              @ mcmaster uni
+              @ mcmaster university
             </p>
           </div>
         </div>

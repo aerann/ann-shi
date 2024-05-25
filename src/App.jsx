@@ -14,7 +14,7 @@ function App() {
             <NameCard />
             <About/>
             
-            <div className='w-full flex flex-row xs:justify-center 2xs:justify-end'>
+            <div className='w-full flex flex-row xs:justify-center md:justify-end'>
               <Contact />
             </div>
             
