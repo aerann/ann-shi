@@ -11,13 +11,13 @@ body{
 
 @layer base {
   h5 {
-    @apply text-3xl font-extrabold pb-2
+    @apply text-3xl font-extrabold pb-2 text-brown
   }
 }
 
 @layer components {
   .contact-icon {
-    @apply text-dark-grey opacity-90 xs:text-5xl xl:text-6xl;
+    @apply text-[#7B5641] opacity-90 xs:text-5xl xl:text-6xl;
   } 
    /* .nav-item .active {
     @apply text-grey;

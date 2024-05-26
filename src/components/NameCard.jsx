@@ -1,4 +1,4 @@
-import profilePic from '../assets/profile.jpg'
+import profilePic from '../assets/profile2.jpg'
 
 function NameCard() {
   return (
@@ -10,14 +10,14 @@ function NameCard() {
           <img 
             src={profilePic} 
             alt="Profile of Ann" 
-            className='absolute xs:left-[1%] bottom-[20%] sm:left-[10%] sm:bottom-[25%] md:bottom-[28%] xl:left-[15%] xl:bottom-[30%] shadow-2xl xs:h-[225px] xs:w-[150px] 2xs:h-[290px] 2xs:w-[200px] sm:h-[325px] sm:w-[220px] md:h-[420px] md:w-[280px] xl:h-[500px] xl:w-[350px]' 
+            className='absolute xs:left-[1%] bottom-[20%] sm:left-[10%] sm:bottom-[25%] md:bottom-[28%] xl:left-[15%] xl:bottom-[30%] shadow-2xl xs:h-[210px] xs:w-[150px] 2xs:h-[290px] 2xs:w-[200px] sm:h-[325px] sm:w-[220px] md:h-[420px] md:w-[300px] xl:h-[500px] xl:w-[350px]' 
           />
           
           <div className="grid grid-cols-2 grid-rows-[35%,65%] box-border w-[85%] pr-9">
             <p className="font-body xs:text-sm 2xs:text-lg sm:text-2xl md:text-3xl  col-start-2 col-span-1 row-span-1 pb-2">nice to meet you, i'm</p>
           </div>
 
-          <div className='bg-white-blue bg-opacity-60 box-border h-4/6 w-[85%] shadow-xl grid grid-cols-2 grid-rows-[35%,65%] pr-7 pt-5'>
+          <div className='bg-muted-grey bg-opacity-60 box-border h-4/6 w-[85%] shadow-xl grid grid-cols-2 grid-rows-[35%,65%] pr-7 pt-5'>
             <h5 className="mt-[-20px] xs:text-4xl 2xs:text-4xl sm:text-5xl md:text-7xl font-extrabold col-start-2 col-span-1 row-span-1 self-center">
               ann shi
             </h5>
@@ -34,3 +34,10 @@ function NameCard() {
 }
 
 export default NameCard
+
+// 'xs': "375px",
+// '2xs': "620px",
+// 'sm': "800px",
+// 'md': "1050px",
+// 'lg': "1250px",
+// 'xl': "1500px",

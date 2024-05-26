@@ -25,6 +25,10 @@ export default {
       'yellow': '#FBF8B5',
       'grey': "#7F8D9F",
       "dark-grey": "#2F2E2E",
+      'muted-grey': "#F0EDE7",
+      'beige': "#F5E1CE",
+      'dark-beige': '#F9D4B4',
+      'brown': '#3E322A',
       'red': '#FF0000'
     },
     fontSize: {
