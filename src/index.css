@@ -17,6 +17,9 @@ body{
 
 @layer components {
   .contact-icon {
-    @apply xs:text-5xl xl:text-6xl
+    @apply xs:text-5xl xl:text-6xl;
   } 
+   /* .nav-item .active {
+    @apply text-grey;
+   } */
 }
