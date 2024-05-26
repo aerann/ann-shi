@@ -4,7 +4,7 @@ import Cat from  '../assets/cat.jpg'
 function About() {
     return (
       <>
-      <div className="w-full grid grid-cols-[80%,20%]"> 
+      <div className="w-full grid md:grid-cols-[80%,20%]"> 
 
 
         <div className="max-w-[700px] flex flex-col space-y-10 m-5" id="about">
@@ -24,7 +24,7 @@ function About() {
                 <ul className="xl:text-xl list-disc list-outside marker:text-sm flex flex-col items-start">
                     <li>writing backend code for an internal tool at RBC as a software developer intern</li>
                     <li>currently developing the front-end for an online game of spyfall as a fun mini side project :)</li>
-                    <li>searching for fall 2024 opportunities!</li>
+                    <li><span className="font-extrabold">searching for fall 2024 opportunities!</span></li>
                 </ul>
             </div>
 
@@ -38,7 +38,7 @@ function About() {
             
             </div>
         
-            <div className='m-5 flex flex-col justify-center gap-20'>
+            <div className='m-5 flex md:flex-col md:justify-center xs:flex-row xs:justify-center  gap-20'>
                 <img src={Cat} alt="Cat picture" className='h-[180px] w-[200px] bg-muted-grey-80 p-5 shadow-sm' />
                 <img src={Bike} alt="Bike picture" className='h-[180px] w-[200px] bg-muted-grey-80 p-5 shadow-sm' />
             </div>
