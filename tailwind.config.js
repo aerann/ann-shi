@@ -24,6 +24,7 @@ export default {
       'blue': '#D4E3F5',
       'yellow': '#FBF8B5',
       'grey': "#7F8D9F",
+      "dark-grey": "#2F2E2E",
       'red': '#FF0000'
     },
     fontSize: {
