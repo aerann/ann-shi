@@ -23,6 +23,7 @@ export default {
       'white-blue': '#EDF2FC',
       'blue': '#D4E3F5',
       'yellow': '#FBF8B5',
+      'grey': "#7F8D9F",
       'red': '#FF0000'
     },
     fontSize: {
