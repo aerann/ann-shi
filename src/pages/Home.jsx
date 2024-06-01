@@ -1,11 +1,18 @@
 import { Navbar, NameCard, About, Contact } from '../components'
+import { motion }  from 'framer-motion'
 
 const Home = () => {
   
   return (
     <>
         <div className='bg-gradient-to-b from-beige from-0% to-dark-beige to-90%'>
-        <Navbar />
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.2, duration: 2, ease: "easeOut" }}
+          >
+            <Navbar />
+          </motion.div>
             <div className='min-h-screen min-w-0 p-10 xs:px-1 lg:px-20 xl:px-40'>
             <div className='flex flex-col items-start space-y-20 '>
                 <NameCard />
