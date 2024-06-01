@@ -10,9 +10,14 @@ function NameCard() {
         <div className='relative xs:h-[300px] xs:w-[350px] 2xs:h-[400px] 2xs:w-[450px] sm:h-[400px] sm:w-[600px] md:h-[550px] md:w-[880px] lg:h-[550px] lg:w-[880px] xl:h-[615px] xl:w-[1500px] flex flex-col xs:items-center'>
           
           <div className="grid grid-cols-2 grid-rows-[35%,65%] box-border w-[85%] pr-9">
-            <p className="font-body xs:text-sm 2xs:text-lg sm:text-2xl md:text-3xl col-start-2 col-span-1 row-span-1 pb-2">
-              <SentenceAnimation text={"nice to meet you, i'm"}/>
-            </p>
+            <motion.p 
+              initial={{ opacity: 0, y: -2.25 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.3, duration: 2, ease: "easeOut" }}
+              className="font-body xs:text-sm 2xs:text-lg sm:text-2xl md:text-3xl col-start-2 col-span-1 row-span-1 pb-2"
+            >
+              nice to meet you, i'm
+            </motion.p>
           </div>
 
           <motion.img 
