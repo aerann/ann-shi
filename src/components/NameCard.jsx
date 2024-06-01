@@ -21,7 +21,7 @@ function NameCard() {
             transition={{ delay: 1.3, duration: 2, ease: "easeOut" }}
             src={profilePic} 
             alt="Profile of Ann" 
-            className='z-10 absolute xs:left-[1%] bottom-[20%] sm:left-[10%] sm:bottom-[25%] md:bottom-[28%] xl:left-[15%] xl:bottom-[30%] shadow-2xl xs:h-[210px] xs:w-[150px] 2xs:h-[290px] 2xs:w-[200px] sm:h-[325px] sm:w-[220px] md:h-[420px] md:w-[300px] xl:h-[500px] xl:w-[350px]' 
+            className='z-10 absolute xs:left-[1%] bottom-[20%] sm:left-[10%] sm:bottom-[25%] md:bottom-[28%] xl:left-[15%] xl:bottom-[30%] shadow-2xl xs:h-[190px] xs:w-[140px] 2xs:h-[290px] 2xs:w-[200px] sm:h-[325px] sm:w-[220px] md:h-[420px] md:w-[300px] xl:h-[500px] xl:w-[350px]' 
           />
 
           <motion.div 

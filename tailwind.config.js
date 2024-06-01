@@ -9,7 +9,7 @@ export default {
   mode: "jit",
   theme: {
     screens: {
-      'xs': "375px",
+      'xs': "320px",
       '2xs': "620px",
       'sm': "800px",
       'md': "1050px",
