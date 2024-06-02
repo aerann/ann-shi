@@ -7,9 +7,9 @@ function NameCard() {
     <>
       <div className='w-full h-full flex flex-row justify-center' id='namecard'>
         
-        <div className='relative xs:h-[300px] xs:w-[350px] 2xs:h-[400px] 2xs:w-[450px] sm:h-[400px] sm:w-[600px] md:h-[550px] md:w-[880px] lg:h-[550px] lg:w-[880px] xl:h-[615px] xl:w-[1500px] flex flex-col xs:items-center'>
+        <div className='relative xs:h-[300px] xs:w-[350px] 2xs:h-[400px] 2xs:w-[450px] sm:h-[400px] sm:w-[600px] md:h-[550px] md:w-[880px] lg:h-[550px] lg:w-[880px]  flex flex-col xs:items-center'>
           
-          <div className="grid grid-cols-2 grid-rows-[35%,65%] box-border w-[85%] pr-9">
+          <div className="grid grid-cols-2 grid-rows-[35%,65%] box-border w-[85%] min-h-dvh:pr-9">
             <motion.p 
               initial={{ opacity: 0, y: -2.25 }}
               animate={{ opacity: 1, y: 0 }}
@@ -26,7 +26,7 @@ function NameCard() {
             transition={{ delay: 1.3, duration: 2, ease: "easeOut" }}
             src={profilePic} 
             alt="Profile of Ann" 
-            className='z-10 absolute xs:left-[1%] bottom-[20%] sm:left-[10%] sm:bottom-[25%] md:bottom-[28%] xl:left-[15%] xl:bottom-[30%] shadow-2xl xs:h-[190px] xs:w-[140px] 2xs:h-[290px] 2xs:w-[200px] sm:h-[325px] sm:w-[220px] md:h-[420px] md:w-[300px] xl:h-[500px] xl:w-[350px]' 
+            className='z-10 absolute xs:left-[1%] bottom-[20%] sm:left-[10%] sm:bottom-[25%] md:bottom-[28%] shadow-2xl xs:h-[190px] xs:w-[140px] 2xs:h-[270px] 2xs:w-[200px] sm:h-[280px] sm:w-[200px] md:h-[420px] md:w-[300px]' 
           />
 
           <motion.div 
