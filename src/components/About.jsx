@@ -1,5 +1,4 @@
-import Bike from '../assets/bike.jpg'
-import Cat from  '../assets/cat.jpg'
+import AnnBike from '../assets/ann_bike.png'
 
 function About() {
     return (
@@ -38,9 +37,8 @@ function About() {
             
             </div>
         
-            <div className='m-5 flex xs:flex-col md:justify-center xs:items-center  gap-20'>
-                <img src={Cat} alt="Cat picture" className='h-[180px] w-[200px] bg-muted-grey-80 p-5 shadow-sm' />
-                <img src={Bike} alt="Bike picture" className='h-[180px] w-[200px] bg-muted-grey-80 p-5 shadow-sm' />
+            <div className='flex xs:flex-col md:justify-center xs:items-center'>
+                <img src={AnnBike} alt="Ann biking" className='h-[220px] w-[230px]' />
             </div>
       </div>
       </>
