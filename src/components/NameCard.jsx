@@ -13,7 +13,7 @@ function NameCard() {
             <motion.p 
               initial={{ opacity: 0, y: -2.25 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1.3, duration: 2, ease: "easeOut" }}
+              transition={{ delay: 0.2, duration: 2, ease: "easeOut" }}
               className="font-body xs:text-sm 2xs:text-lg sm:text-2xl md:text-3xl col-start-2 col-span-1 row-span-1 pb-2"
             >
               nice to meet you, i'm
@@ -23,7 +23,7 @@ function NameCard() {
           <motion.img 
             initial={{ opacity: 0, y: -2 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.3, duration: 2, ease: "easeOut" }}
+            transition={{ delay: 0.2, duration: 2, ease: "easeOut" }}
             src={profilePic} 
             alt="Profile of Ann" 
             className='z-10 absolute xs:left-[1%] bottom-[20%] sm:left-[10%] sm:bottom-[25%] md:bottom-[28%] shadow-2xl xs:h-[190px] xs:w-[140px] 2xs:h-[270px] 2xs:w-[200px] sm:h-[280px] sm:w-[200px] md:h-[420px] md:w-[300px]' 
@@ -32,7 +32,7 @@ function NameCard() {
           <motion.div 
             initial={{ opacity: 0, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.2, duration: 2 }}
+            transition={{ delay: 0.5, duration: 2 }}
             className='bg-muted-grey bg-opacity-60 box-border h-4/6 w-[85%] shadow-xl grid grid-cols-2 grid-rows-[35%,65%] pr-7 pt-5'
           >
             <h5 className="mt-[-20px] xs:text-4xl 2xs:text-4xl sm:text-5xl md:text-7xl font-extrabold col-start-2 col-span-1 row-span-1 self-center">
